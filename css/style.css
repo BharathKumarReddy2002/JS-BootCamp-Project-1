@@ -1,0 +1,185 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    text-decoration: none;
+}
+.list-item:first-child{
+    text-decoration:underline;
+    font-size: larger;
+    font-weight: bold;
+}
+.button-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-item{
+    margin: 20px 30px;
+    list-style-type: none;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.nav-button{
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-top: 10px;   
+}
+
+.search-icon{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.hero-container{
+    display: flex;
+    position: relative;
+}
+
+.globe+div{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 430px;
+    height: 600px;
+}
+
+.globe+div>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.square{
+    position:absolute;
+    margin-top: 350px;
+    margin-left: 245px;
+    width: 300px;
+    height: 400px;
+}
+
+.square>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.globe{
+    position: absolute;
+    margin-left: 730px;
+    width: 50px;
+}
+
+.globe>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.star{
+    position: absolute;
+    margin-left: 1150px;
+    width: 40px;
+    margin-top: 50px;
+}
+
+.star>img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-heading{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 150px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    font-size: xxx-large;
+}
+
+.hero-description{
+    position: absolute;
+    margin-top: 200px;
+    margin-left:  580px; 
+    padding: 50px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+}
+
+.button-email{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 700px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: medium;
+    padding: 5px 25px;
+    border-radius: 5px; 
+}
+
+.button-join{
+    position: absolute;
+    margin-top: 375px;
+    margin-left: 900px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: medium;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: black;
+}
+
+.contact-heading{
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 840px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 800px;
+}
+
+.icons img{
+    max-width: 30px;
+    padding: 5px;
+}
+
+.star2{
+    position: absolute;
+    margin-left: 580px;
+    width: 40px;
+    margin-top: 580px;
+}
+
+.star2>img{
+    max-width: 100%;
+    max-height: 100%;
+}
