@@ -4,6 +4,9 @@
     align-items: baseline;
     margin-top: 20px;
 }
+.navbar-container>div>img{
+    width: 110px;
+}
 
 .list{
     display: flex;
